@@ -53,29 +53,57 @@ export default function Register () {
 		})
 		.then(res => res.json())
 		.then(data => {
-			console.log(data)	// to be removed
+			console.log(data);	// to be removed
 
 			if (data === true) {
 				Swal.fire({
-					title: `Thank you for registering, ${ firstName }!`,
-					icon: 'success',
-					text: 'Registration successful.'
+					title: 'Error',
+					icon: 'error',
+					text: 'Please provide a different email.'
 				})
-				history.push('/login')
 			}
 			else {
-				Swal.fire({
-					title: 'Error!',
-					icon: 'error',
-					text: 'Please try again.'
+				fetch('https://limitless-gorge-38821.herokuapp.com/users/register', {
+					method: 'POST',
+					headers: {
+						'Content-type': 'application/json'
+					},
+					body: JSON.stringify({
+						firstName: firstName,
+						lastName: lastName,
+						address: address,
+						mobileNo: mobileNo,
+						email: email,
+						password: password
+					})
 				})
-				setFirstName('')
-				setLastName('')
-				setAddress('')
-				setMobileNo('')
-				setEmail('')
-				setPassword('')
-				setVerPassword('')
+				.then(res => res.json())
+				.then(data => {
+					console.log(data);	// to be removed
+
+					if (data === true) {
+						Swal.fire({
+							title: `Thank you for registering, ${ firstName }!`,
+							icon: 'success',
+							text: 'Registration successful.'
+						})
+						history.push('/login')
+					}
+					else {
+						Swal.fire({
+							title: 'Error',
+							icon: 'error',
+							text: 'Please try again.'
+						})
+					}
+				})
+				setFirstName('');
+				setLastName('');
+				setAddress('');
+				setMobileNo('');
+				setEmail('');
+				setPassword('');
+				setVerPassword('');
 			}
 		})
 	}
