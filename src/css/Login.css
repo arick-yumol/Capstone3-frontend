@@ -1,0 +1,50 @@
+.h1-Login {
+	font-family: 'EB Garamond', serif;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.form-Login {
+	background-color: #FAF7F4;
+	padding: 25px;
+}
+
+.form-label-Login {
+	font-family: 'Zen Antique', serif;
+	font-size: 1.2rem;
+	color: #9C2D41;
+}
+
+.form-control-Login {
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 400;
+}
+
+.form-text-Login {
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 400;
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+}
+
+.link-Login {
+	color: #CB857C;
+}
+
+.link-Login:hover {
+	color: #9C2D41;
+}
+
+.button-Login {
+	background-color: #CB857C !important;
+	border-color: #CB857C !important;
+	border-radius: 10px !important;
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 400;
+	color: #FAF7F4 !important;
+}
+
+.button-Login:hover {
+	background-color: #9C2D41 !important;
+	border-color: #9C2D41 !important;
+}

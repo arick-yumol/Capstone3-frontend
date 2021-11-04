@@ -1,0 +1,38 @@
+.navbar-AppNavbar {
+	background-color: #CB857C;
+}
+
+.navbar-brand-AppNavbar {
+	font-family: 'Lora', serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #FAF7F4;
+}
+
+.nav-AppNavbar {
+	display: inline-flex;
+	justify-content: flex-end;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.nav-item-AppNavbar {
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 700;
+	color: #FAF7F4;
+	margin: 5px;
+}
+
+.nav-item-AppNavbar:hover {
+	border-radius: 5px;
+	background-color: #F6CBB7;
+	color: #9C2D41;
+}
+
+.nav-link-AppNavbar {
+	color: #FAF7F4;
+}
+
+.nav-link-AppNavbar:hover {
+	color: #9C2D41;
+}

@@ -1,0 +1,17 @@
+.h1-Orders {
+	font-family: 'EB Garamond', serif;
+	font-size: 2rem !important;
+	font-weight: bold;
+}
+
+.thead-Orders {
+	background-color: #9C2D41;
+	font-family: Zen Antique, serif;
+	color: #FAF7F4;
+}
+
+.tbody-Orders {
+	background-color: #FAF7F4;
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 400;
+}

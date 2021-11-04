@@ -1,0 +1,55 @@
+.body {
+	background-color: #F6CBB7;
+}
+
+.card-SpecificProduct {
+	margin-top: 5rem;
+}
+
+/*.card-header {
+	background: #CB857C;
+}*/
+
+.card-header-SpecificProduct {
+	background-color: #FAF7F4;
+	display: flex;
+	justify-content: center;
+	font-family: 'Lora', serif;
+	font-size: 3.5rem !important;
+	font-weight: bold !important;
+	color: #CB857C;
+}
+
+.card-body-SpecificProduct {
+	background: #9C2D41;
+}
+
+.card-subtitle-SpecificProduct {
+	font-family: 'Zen Antique', serif;
+	font-size: 2rem !important;
+	color: #FAF7F4;
+}
+
+.card-text-SpecificProduct {
+	font-family: 'Zen Antique', serif;
+	font-size: 1.7rem !important;
+	color: #F6CBB7;
+}
+
+.card-footer-SpecificProduct {
+	background-color: #F6CBB7;
+}
+
+.link-SpecificProduct {
+	background-color: #FAF7F4;
+	display: flex;
+	justify-content: center;
+	font-family: 'Zen Antique', serif;
+	font-size: 1.5rem;
+	color: #CB857C;
+}
+
+.link-SpecificProduct:hover {
+	color: #9C2D41;
+	text-decoration: none;
+}

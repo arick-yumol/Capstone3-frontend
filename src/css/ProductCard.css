@@ -1,0 +1,30 @@
+.card-ProductCard {
+	margin-top: 5rem;
+}
+
+.card-header-ProductCard {
+	background-color: #F6CBB7;
+	display: flex;
+	justify-content: center;
+	font-family: 'Lora', serif;
+	font-size: 3.5rem !important;
+	font-weight: bold !important;
+	color: #9C2D41;
+}
+
+.card-body-ProductCard {
+	background-color: #F6CBB7;
+}
+
+.link-ProductCard {
+	display: flex;
+	justify-content: center;
+	font-family: 'Zen Antique Soft', serif;
+	font-size: 1.8rem;
+	color: #FAF7F4;
+}
+
+.link-ProductCard:hover {
+	color: #CB857C;
+	text-decoration: none;
+}

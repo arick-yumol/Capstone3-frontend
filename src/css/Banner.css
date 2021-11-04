@@ -1,0 +1,42 @@
+.card-Banner {
+	background-color: #CB857C;
+	margin-top: 3rem;
+	padding: 15px;
+}
+
+.card-body-Banner {
+	background-color: #9C2D41;
+}
+
+.h1-Banner {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-size: 5rem !important;
+	color: #F6CBB7;
+	text-shadow: 2px 2px #CB857C;
+	margin-left: 10px;
+}
+
+.p-Banner {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.5rem !important;
+	color: #faf7f4;
+	margin-left: 10px;
+}
+
+.link-Banner {
+	background-color: #F6CBB7;
+	border: solid;
+	border-radius: 10px;
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: bold;
+	color: #CB857C;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.link-Banner:hover {
+	background-color: #CB857C;
+	color: #F6CBB7;
+	text-decoration: none;
+}

@@ -1,0 +1,34 @@
+.h2-AdminView {
+	font-family: 'EB Garamond', serif;
+	font-size: 2rem !important;
+	font-weight: bold;
+}
+
+.thead-AdminView {
+	background-color: #9C2D41;
+	font-family: Zen Antique, serif;
+	color: #FAF7F4;
+}
+
+.tbody-AdminView {
+	background-color: #FAF7F4;
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 400;
+}
+
+.modal-header-AdminView, .modal-footer-AdminView {
+	background-color: #F6CBB7;
+}
+
+.modal-title-AdminView {
+	font-family: 'EB Garamond', serif;
+}
+
+.modal-body-AdminView {
+	background-color: #FAF7F4;
+}
+
+.form-label-AdminView {
+	font-family: 'Hind Madurai', sans-serif;
+	font-weight: 400;
+}
