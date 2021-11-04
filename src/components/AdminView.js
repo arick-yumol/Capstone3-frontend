@@ -22,7 +22,7 @@ export default function AdminView (productProp) {
 	const closeAdd = () => setShowAdd(false);
 
 	const openUpdate = (productId) => {
-		fetch(`http://localhost:4002/products/${ productId }`)
+		fetch(`https://limitless-gorge-38821.herokuapp.com/products/${ productId }`)
 		.then(res => res.json())
 		.then(data => {
 			setProductId(data._id);
@@ -67,7 +67,7 @@ export default function AdminView (productProp) {
 	const addProduct = (e) => {
 		e.preventDefault();
 
-		fetch('http://localhost:4002/products/add', {
+		fetch('https://limitless-gorge-38821.herokuapp.com/products/add', {
 			method: 'POST',
 			headers: {
 				'Content-type': 'application/json',
@@ -111,7 +111,7 @@ export default function AdminView (productProp) {
 	const updateProduct = (e, productId) => {
 		e.preventDefault();
 
-		fetch(`http://localhost:4002/products/${ productId }/update`, {
+		fetch(`https://limitless-gorge-38821.herokuapp.com/products/${ productId }/update`, {
 			method: 'PUT',
 			headers: {
 				'Content-type': 'application/json',
@@ -151,7 +151,7 @@ export default function AdminView (productProp) {
 	}
 
 	const archiveProduct = (productId, onStock) => {
-		fetch(`http://localhost:4002/products/${ productId }/archive`, {
+		fetch(`https://limitless-gorge-38821.herokuapp.com/products/${ productId }/archive`, {
 			method: 'PUT',
 			headers: {
 				'Content-type': 'application/json',
@@ -187,7 +187,7 @@ export default function AdminView (productProp) {
 	}
 
 	const unarchiveProduct = (productId, onStock) => {
-		fetch(`http://localhost:4002/products/${ productId }/unarchive`, {
+		fetch(`https://limitless-gorge-38821.herokuapp.com/products/${ productId }/unarchive`, {
 			method: 'PUT',
 			headers: {
 				'Content-type': 'application/json',

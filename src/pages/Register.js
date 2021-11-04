@@ -42,7 +42,7 @@ export default function Register () {
 	const register = (e) => {
 		e.preventDefault();
 
-		fetch('http://localhost:4002/users/duplicates', {
+		fetch('https://limitless-gorge-38821.herokuapp.com/users/duplicates', {
 			method: 'POST',
 			headers: {
 				'Content-type': 'application/json'

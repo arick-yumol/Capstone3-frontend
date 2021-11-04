@@ -10,7 +10,7 @@ export default function Orders () {
 	console.log(allOrders);	// to be removed
 
 	const fetchOrders = () => {
-		fetch('http://localhost:4002/users/orders', {
+		fetch('https://limitless-gorge-38821.herokuapp.com/users/orders', {
 			method: 'GET',
 			headers: {
 				'Content-type': 'application/json',

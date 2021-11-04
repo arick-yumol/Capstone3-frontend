@@ -29,7 +29,7 @@ export default function Login () {
 	const login = (e) => {
 		e.preventDefault();
 
-		fetch('http://localhost:4002/users/login', {
+		fetch('https://limitless-gorge-38821.herokuapp.com/users/login', {
 			method: 'POST',
 			headers: {
 				'Content-type': 'application/json'
@@ -53,7 +53,7 @@ export default function Login () {
 					text: 'Logged in successful.'
 				})
 
-				fetch('http://localhost:4002/users/details', {
+				fetch('https://limitless-gorge-38821.herokuapp.com/users/details', {
 					headers: {
 						Authorization: `Bearer ${ data.accessToken }`
 					}

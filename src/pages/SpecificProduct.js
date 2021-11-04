@@ -18,7 +18,7 @@ export default function SpecificProduct () {
 	const { productId } = useParams();
 
 	useEffect(() => {
-		fetch(`http://localhost:4002/products/${ productId }`)
+		fetch(`https://limitless-gorge-38821.herokuapp.com/products/${ productId }`)
 		.then(res => res.json())
 		.then(data => {
 			setName(data.name);
@@ -28,7 +28,7 @@ export default function SpecificProduct () {
 	}, [])
 
 	const addProduct = (productId) => {
-		fetch('http://localhost:4002/users/checkout', {
+		fetch('https://limitless-gorge-38821.herokuapp.com/users/checkout', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',

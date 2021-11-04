@@ -15,7 +15,7 @@ export default function Products () {
 	console.log(allProducts);	// to be removed
 
 	const fetchData = () => {
-		fetch('http://localhost:4002/products/all')
+		fetch('https://limitless-gorge-38821.herokuapp.com/products/all')
 		.then(res => res.json())
 		.then(data => {
 			console.log(data);	// to be removed
